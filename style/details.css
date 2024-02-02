@@ -1,0 +1,93 @@
+#liens, #affichage, #details {
+    position: absolute
+}
+
+#liens {
+    margin-top: 7%
+}
+
+#liens {
+    margin-left: 76%;
+    width: 9%
+}
+
+#accueil {
+    padding: 1% 10% 19% 10%;
+}
+
+#details {
+    display: inline-block;
+    border: 1em ridge lightcoral;
+    border-radius: 1em;
+    background-color: antiquewhite;
+    padding: 1%
+}
+
+#affichage h2 {
+    text-align: center
+}
+
+#implementation li {
+    list-style-type: inherit
+}
+
+#implementation .fonctionnalites {
+    list-style-position: inside;
+    list-style-type: circle
+}
+
+@media (min-width: 1550px) {
+    #affichage {
+        margin-top: 0;
+        margin-left: 15%;
+        width: 60%
+    }
+    #liens {
+        margin-top: 7%;
+        height: 25%
+    }
+    #accueil {
+        padding: 0 10% 0 0%
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1550px) {
+    #affichage {
+        margin-left: 16%;
+        width: 59%
+    }
+    #liens {
+        margin-top: 9%
+    }
+    #accueil {
+        padding: 1% 10% 19% 0%
+    }
+    .details {
+        margin-top: -15%
+    }
+}
+
+@media (min-width: 1330px) and (max-width: 1400px) {
+    #affichage {
+        margin-left: 16%;
+        width: 59%
+    }
+    #liens {
+        height: 25%;
+        margin-top: 10%
+    }
+    #accueil {
+        padding: 1% 10% 19% 3%
+    }
+}
+
+@media (max-width: 1330px) {
+    #affichage {
+        margin-left: 16%;
+        width: 59%
+    }
+    #liens {
+        height: 31%;
+        margin-top: 10%
+    }
+}

@@ -1,0 +1,154 @@
+#Oeuvres figure:hover, #Oeuvres #image_1:hover, #Oeuvres #image_2:hover, #Oeuvres #image_0:hover {
+    width: 100%;
+}
+
+#Oeuvres #image_1:hover, #Oeuvres #image_2:hover, #Oeuvres #image_0:hover {
+    transition: 2s
+}
+
+#imageMusee > img {
+    max-width: 31%
+}
+
+#Oeuvres img {
+    max-width: 100%;
+}
+
+#Oeuvres #image_0 {
+    margin-top: 25%;
+    transition: 2s
+}
+
+#Oeuvres #image_0:hover {
+    margin-left: 127%;
+    margin-top: -13%
+}
+
+#Oeuvres #image_1  {
+    margin-top: 17%;
+    transition: 2s
+}
+
+#Oeuvres #image_1:hover  {
+    margin-top: -24%;
+    margin-left: 25%
+}
+
+#Oeuvres #image_2  {
+    margin-top: 20%;
+    transition: 2s
+}
+
+#Oeuvres #image_2:hover  {
+    margin-left: -72%;
+    margin-top: -23%
+}
+
+#Contact {
+    margin-left: 34%;
+    padding: .5%
+}
+
+#affichage > p {
+    margin-left: 3%
+}
+
+#liens {
+    position: absolute
+}
+
+@media (min-width: 1550px) {
+    #Contact {
+        margin-top: 29%;
+        margin-left: 31%
+    } 
+    #imageMusee {
+        margin-top: -14.84%;
+        margin-left: -.1%
+    }
+    #accueil {
+        padding: 0% 0% 0% 10%;
+        width: 0
+    }
+    #liens {
+        margin-top: 11%;
+        margin-left: 0;
+        grid-gap: 0
+    }
+    article {
+        height: 26em
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1550px) {
+    #Contact {
+        margin-top: 32%;
+        margin-left: 31%
+    } 
+    #imageMusee {
+        margin-top: -14.95%;
+        margin-left: -.19%
+    }
+    #accueil {
+        padding: 0 0 0 1%
+    }
+    #liens {
+        margin-top: 11%;
+        margin-left: 0
+    }
+    article {
+        height: 26em
+    }
+}
+
+@media (min-width: 1330px) and (max-width: 1400px) {
+    #Contact {
+        margin-top: 35%;
+        margin-left: 31%
+    } 
+    #imageMusee {
+        margin-top: -16.25%;
+        margin-left: -.15%
+    }
+    article {
+        height: 24em
+    }
+    #liens {
+        height: 22%;
+        margin-top: 13%;
+        margin-left: 0
+    }
+    #accueil {
+        padding: 0% 0% 0% 6%;
+        width: 0
+    }
+    #accueil li:first-child {
+        margin-top: -5%
+    }
+}
+
+@media (max-width: 1330px) {
+    #Contact {
+        margin-top: 37%;
+        margin-left: 27%
+    } 
+    #imageMusee {
+        margin-top: -16.95%;
+        margin-left: -.25%
+    }
+    article {
+        height: 24em
+    }
+    #liens {
+        height: 21%;
+        margin-top: 13%;
+        margin-left: 0
+    }
+    #accueil {
+        padding: 0% 0% 0% 5%;
+        width: 0
+    }
+    #accueil li:first-child {
+        margin-top: -5%
+    }
+}

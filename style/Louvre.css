@@ -1,0 +1,197 @@
+#liens {
+    position: absolute;
+}
+
+#Contact {
+    margin-left: 34%;
+    padding: .5%
+}
+
+#affichage > p {
+    margin-left: 3%
+}
+
+#imageMusee > img {
+    max-width: 28%
+}
+
+#Oeuvres {
+    margin-top: 5%
+}
+
+#Oeuvres img {
+    max-width: 100%
+}
+
+#Oeuvres #image_0  {
+    width: 50%;
+    margin-left: 40%;
+    transition: 2s;
+}
+
+#Oeuvres #image_0:hover {
+    width: 70%;
+    margin-left: 140%;
+    margin-top: -17.7%;
+    transition: 2s;
+}
+
+#Oeuvres #image_1  {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -3%;
+    transition: 2s
+}
+
+#Oeuvres #image_1:hover  {
+    width: 70%;
+    margin-left: 40%;
+    margin-top: -21.6%;
+    transition: 2s
+}
+
+#Oeuvres #image_2  {
+    margin: 4% 5% 1% -5%;
+    transition: 2s
+}
+
+#Oeuvres #image_2:hover  {
+    width: 124%;
+    margin-left: -90%;
+    margin-top: -31%;
+    transition: 2s
+}
+
+@media (min-width: 1550px) {
+    #Contact {
+        margin-top: 30%;
+        margin-left: 34%
+    } 
+    #imageMusee {
+        margin-top: -14.84%;
+        margin-left: -.1%
+    }
+    #accueil {
+        padding: 0% 0% 0% 10%;
+        width: 0
+    }
+    #liens {
+        margin-top: 11%;
+        margin-left: 0;
+        grid-gap: 0
+    }
+    article {
+        height: 26em
+    }
+    #Oeuvres #image_0 {
+        margin-top: 7%
+    }
+    #Oeuvres #image_1 {
+        margin-top: 0
+    }
+    #Oeuvres #image_2 {
+        margin-top: 7%
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1550px) {
+    #Contact {
+        margin-top: 32%;
+        margin-left: 31%
+    } 
+    #imageMusee {
+        margin-top: -14.95%;
+        margin-left: -.19%
+    }
+    #accueil {
+        padding: 0 0 0 1%
+    }
+    #liens {
+        margin-top: 11%;
+        margin-left: 0
+    }
+    article {
+        height: 26em
+    }
+    #Oeuvres #image_0 {
+        margin-top: 5%
+    }
+    #Oeuvres #image_1 {
+        margin-top: -2%
+    }
+    #Oeuvres #image_2 {
+        margin-top: 5%
+    }
+}
+
+@media (min-width: 1330px) and (max-width: 1400px) {
+    #Contact {
+        margin-top: 35%;
+        margin-left: 31%
+    } 
+    #imageMusee {
+        margin-top: -16.25%;
+        margin-left: -.15%
+    }
+    article {
+        height: 24em
+    }
+    #liens {
+        height: 22%;
+        margin-top: 13%;
+        margin-left: 0
+    }
+    #accueil {
+        padding: 0% 0% 0% 6%;
+        width: 0
+    }
+    #accueil li:first-child {
+        margin-top: -5%
+    }
+    #Oeuvres #image_0 {
+        margin-top: 11%
+    }
+    #Oeuvres #image_1 {
+        margin-top: 4%
+    }
+    #Oeuvres #image_2 {
+        margin-top: 11%
+    }
+}
+
+@media (max-width: 1330px) {
+    #Contact {
+        margin-top: 37%;
+        margin-left: 29%
+    } 
+    #imageMusee {
+        margin-top: -16.95%;
+        margin-left: -.25%
+    }
+    article {
+        height: 24em
+    }
+    #liens {
+        height: 21%;
+        margin-top: 13%;
+        margin-left: 0
+    }
+    #accueil {
+        padding: 0% 0% 0% 5%;
+        width: 0
+    }
+    #accueil li:first-child {
+        margin-top: -5%
+    }
+    #Oeuvres #image_0 {
+        margin-top: 15%;
+        margin-left: 27%
+    }
+    #Oeuvres #image_1 {
+        margin-top: 7%;
+        margin-left: 20%
+    }
+    #Oeuvres #image_2 {
+        margin-top: 14%
+    }
+}

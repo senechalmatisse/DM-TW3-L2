@@ -1,0 +1,2 @@
+// Fichier contenant normalement le mot de passe pour la connexion à la base de données
+// Supprimé ici pour cause de confidentialité

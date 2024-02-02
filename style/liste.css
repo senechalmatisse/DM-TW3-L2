@@ -1,0 +1,123 @@
+#pagination, #pagination li, #pagination li a {
+    box-sizing: border-box
+}
+
+#liens, article, #affichage {
+    position: absolute;
+}
+
+#pagination #suivant a, #pagination .precedent a {
+    text-transform: uppercase
+}
+
+a > img {
+    max-width: 1em
+}
+
+h4 .c1 {
+    display: inline-block;
+    width: 7em
+}
+
+#liens {
+    margin: 5% 0% 0% 77%
+}
+
+#affichage {
+    margin-left: 22%;
+    margin-top: 3%
+}
+
+article {
+    display: inline-block;
+    border: 1em ridge lightcoral;
+    border-radius: 1em;
+    background-color: antiquewhite;
+    padding: 1%;
+    height: auto
+}
+
+article .infos {
+    display: grid;
+    grid-template-columns: 11% 17% 13% 15% 17% 13% 3% 3% 0%
+}
+
+#pagination {
+    padding: 1em;
+    display: inline-flex;
+    margin-left: 29%
+}
+
+#pagination li {
+    padding-right: .62em
+}
+
+#pagination li a {
+    background-color: lightgrey;
+    padding: .67em;
+    text-decoration: none;
+    font-size: 75%;
+    font-weight: bold;
+    color: initial;
+    border-radius: 11%
+}
+
+#pagination li a:hover {
+    background-color: #d4dada
+}
+
+#pagination #pageActuelle a {
+    background-color: lightcoral;
+    color: #fff
+}
+
+#pagination #pageActuelle a:hover {
+    background-color: #518acb
+}
+
+@media (min-width: 1550px) {
+    #liens {
+        margin: 9% 0% 0% 81%
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1550px) {
+    #affichage {
+        margin-left: 14%
+    }
+    #liens {
+        margin: 9% 0% 0% 77%
+    }
+}
+
+@media (min-width: 1330px) and (max-width: 1400px) {
+    #affichage {
+        margin-left: 12%
+    }
+    #liens {
+        margin: 9% 0% 0% 77%
+    }
+}
+
+@media (max-width: 1330px) {
+    #affichage {
+        margin-left: 9%;
+        margin-top: 0
+    }
+    #liens {
+        margin: 36% 0% 0% 32%;
+        height: 8%;
+        width: 27%
+    }
+    #accueil {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 0;
+        width: 0;
+        height: 0;
+        padding: 0 0% 0% 8%
+    }
+    #accueil li:first-child {
+        margin-top: -12%
+    }
+}

@@ -1,0 +1,189 @@
+html {
+    font-family : Helvetica, sans-serif;
+    background-color : #E0E0E0
+}
+
+body {
+    border: .1em solid lightcoral
+}
+
+article {
+    border: 1em ridge lightcoral;
+    border-radius: 1em;
+    background-color: antiquewhite;
+    height: 28em
+}
+
+article > p {
+    margin-left: 3%;
+    border: .3em inset lightcoral;
+    border-radius: 0 0 1em 0;
+    position: absolute;
+    padding: .5%;
+    margin: 0;
+    background: linear-gradient(145deg, burlywood, lightblue)
+}
+
+
+body {
+    max-width: 93.5%;
+    height: 54em;
+    background-color: beige;
+    margin: 2em auto;
+    border-radius: 5em
+}
+
+body > p {
+    margin-top: 8%;
+    margin-left: 3%
+}
+
+#Contact p {
+    text-align: center
+}
+
+h1 {
+    color: lightcoral
+}
+
+hr {
+    margin-left: 25%;
+    margin-right: 25%;
+    border: .5em double lightcoral
+}
+
+.accueil {
+    padding-top: 3%
+}
+
+#accueil, #Oeuvres figure, #liens {
+    border-radius: 1em
+}
+
+#accueil {
+    padding: 0 10% 19% 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 5%;
+    height: 100%;
+}
+
+#accueil li:first-child {
+    margin-top: 11%
+}
+
+#Contact, #liens {
+    background-color: antiquewhite
+}
+
+#Contact {
+    border: .5em ridge lightcoral;
+    border-radius: 0%;
+}
+
+#imageMusee, #Contact {
+    position: absolute
+}
+
+#imageMusee {
+    margin-top: -14%;
+    margin-left: -0.1%
+}
+
+#imageMusee > img {
+    display: block;
+    border-radius: 5em 0% 50% 0%;
+    border: .1em solid lightcoral
+}
+
+#liens {
+    width: 8%;
+    height: 26%;
+    margin-top: 8%;
+    border: 1em ridge lightcoral
+}
+
+#accueil li, #Oeuvres figure figcaption, h1 {
+    text-align: center
+}
+
+#table {
+    width: 100%
+}
+
+#affichage {
+    width: 85%;
+    padding: 5em 0em 7em 0em
+}
+
+li {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+#Oeuvres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+#Oeuvres figure {
+    transition: 2s
+}
+
+#Oeuvres figure:hover {
+    border: .1em solid;
+    padding: 1em;
+    position: relative;
+    margin-left: auto;
+    box-shadow: 0em 0em 13em 12em grey;
+    background: linear-gradient(50deg, lightblue, burlywood);
+    transition: 1s
+}
+
+#Oeuvres figure figcaption {
+    display: none
+}
+
+#Oeuvres figure:hover figcaption {
+    display: block
+}
+
+@media (min-width: 1550px) {
+    #imageMusee {
+        margin-top: -14.5%
+    }
+    #Contact {
+        margin-top: 29%
+    }
+    #accueil {
+        padding: 0 10% 0 10%
+    }
+}
+
+@media (max-width: 1550px) {
+    #imageMusee {
+        margin-top: -15.6%;
+        margin-left: -0.2%
+    }
+    #liens {
+        height: 26%;
+        margin-top: 12%;
+        margin-left: 1%
+    }
+    #Contact {
+        margin-top: 32%
+    }  
+    #imageMusee {
+        margin-top: -15.25%
+    }
+    article > p {
+        padding-left: .4%
+    }
+    #accueil {
+        padding: 7% 0% 0 1%
+    }
+}

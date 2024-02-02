@@ -1,0 +1,21 @@
+#liens, #affichage {
+    position: absolute
+}
+
+#liens {
+    margin: 5% auto auto 77%
+}
+
+#affichage {
+    margin-left: 36%;
+    margin-top: 5%;
+    width: 23%;
+    text-align: center
+}
+
+h2, form {
+    border: 1em ridge lightcoral;
+    padding: 2%;
+    border-radius: 1em;
+    background-color: antiquewhite
+}

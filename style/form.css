@@ -1,0 +1,63 @@
+form, #affichage #infos, #Bouton {
+    border-radius: 1em;
+}
+
+#affichage, #liens {
+    position: absolute
+}
+
+label {
+    display: inline-block;
+    width: 19em;
+    margin-bottom: .1em;
+    margin-top: .1em
+}
+
+input {
+    font-size: 8pt;
+    padding: .2em;
+    background-color: ghostwhite;
+    font-family: Helvetica;
+}
+
+.w3-text-red {
+    color: #f44336 !important
+}
+
+form, #affichage #infos {
+    border: 1em ridge lightcoral;
+    background-color: antiquewhite
+}
+
+#liens {
+    width: 7%
+}
+
+form {
+    padding: 12%
+}
+
+#affichage {
+    width: 40%;
+    padding: 5em 0 7em 0;
+    margin: -2% auto auto 29%
+}
+
+#liens {
+    margin: 10% 0% 0% 74%
+}
+
+#exposition {
+    margin-top: 3%
+}
+
+#Bouton {
+    position: relative;
+    margin: 1em auto -1em auto
+}
+
+@media (min-width: 1550px) {
+    #accueil {
+        padding: 0 10% 0 2%
+    }
+}

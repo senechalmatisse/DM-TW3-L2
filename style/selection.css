@@ -1,0 +1,78 @@
+#liens, #affichage {
+    position: absolute
+}
+
+#liens {
+    margin: 5% auto auto 77%;
+    width: 9%
+}
+
+#affichage {
+    margin-left: 19%;
+    padding: 10em 0 0 0;
+    width: 55%
+}
+
+.infos {
+    display: grid;
+    border: 1em ridge lightcoral;
+    grid-gap: 7%;
+    border-radius: 1em;
+    background-color: antiquewhite;
+    padding: 2%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
+}
+
+@media (min-width: 1550px) {
+    #liens {
+        margin: 9% 0% 0% 81%
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1550px) {
+    #affichage {
+        margin-left: 18%
+    }
+    #liens {
+        margin: 9% 0% 0% 77%
+    }
+}
+
+@media (min-width: 1330px) and (max-width: 1400px) {
+    #affichage {
+        margin-left: 12%
+    }
+    #liens {
+        margin: 9% 0% 0% 77%
+    }
+}
+
+@media (max-width: 1330px) {
+    #affichage {
+        margin-left: 38%;
+        margin-top: 0;
+        padding: 0;
+        text-align: center;
+        width: 17%
+    }
+    .infos {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        padding-left: 1%;
+        grid-gap: 0
+    }
+    #liens {
+        margin: 36% 0% 0% 32%;
+        height: 8%;
+        width: 24%
+    }
+    #accueil {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 0;
+        padding: 0 0% 0% 8%
+    }
+    #accueil li:first-child {
+        margin-top: -12%
+    }
+}

@@ -1,0 +1,32 @@
+<?php
+$corps =<<<EOT
+  <form method="post" action="index.php?action={$cible}" name="form_user" >
+    <label id="Nom">Nom</label>
+    <input type="text" name="NomV" placeholder="Doe" value="{$nom}">
+    <span class="w3-text-red">{$erreur["nom"]}</span><br/>
+    
+    <label id="Prenom">Prénom</label>
+    <input type="text" name="PrenomV" placeholder="John" value="{$prenom}">
+    <span class="w3-text-red">{$erreur["prenom"]}</span><br/>
+
+    <label id="Date">Date de naissance</label>
+    <input type="text" name="DateN" placeholder="jj-mm-aaaa" value="{$dateN}">
+    <span class="w3-text-red">{$erreur["dateN"]}</span><br/>
+
+    <label id="Telephone">Téléphone</label>
+    <input type="text" name="TelephoneV" placeholder="xx xx xx xx xx" value="{$telephone}">
+    <span class="w3-text-red">{$erreur["telephone"]}</span><br/>
+
+    <fieldset id="exposition">
+      <legend>Choisissez l'exposition à laquelle vous voulez participer :</legend>
+      <label><input type="radio" value="louvre" name="ExpositionV" checked/>Musée du Louvre</label><br/>
+      <label><input type="radio" value="orangerie" name="ExpositionV" />Musée de l'Orangerie</label><br/>
+      <label><input type="radio" value="orsay" name="ExpositionV" />Musée d'Orsay</label><br/>
+      <label><input type="radio" value="rodin" name="ExpositionV" />Musée Rodin</label>
+    </fieldset>
+
+    <input id="Bouton" type="submit" name="user_valider" value="Valider" >
+  </form>
+EOT;
+$zonePrincipale=$corps;
+?>
